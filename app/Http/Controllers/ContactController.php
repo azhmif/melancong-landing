@@ -40,7 +40,7 @@ class ContactController extends Controller
             'whatsapp'   => $request->whatsapp
         ]);
 
-        Session::flash('sukses', 'berhasil');
+        $request->session->flash('sukses', 'berhasil');
         return redirect('contact');
     }
 }

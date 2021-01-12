@@ -10,10 +10,7 @@ class LayananModel extends Model
     protected $fillable = [
         'id_layanan',
         'nama_layanan',
-        'jenis_layanan',
         'keterangan',
-        'harga',
-        'diskon',
     ];
 
     public $incrementing = false;

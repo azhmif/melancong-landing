@@ -1261,19 +1261,23 @@ section {
 # Gallery
 --------------------------------------------------------------*/
 .gallery {
-    padding-bottom: ;
+    padding-bottom: 10px;
 }
 
 .gallery .gallery-item {
     overflow: hidden;
-    width: 410px;
+    width: 400px;
     height: 270px;
+    margin-right: 10px;
+    margin-left: 10px;
     border-right: 3px solid #fff;
     border-bottom: 3px solid #fff;
 }
 
 .gallery .gallery-item img {
     transition: all ease-in-out 0.4s;
+    width: 325px;
+    height: 270px;
 }
 
 .gallery .gallery-item:hover img {

@@ -8,10 +8,12 @@ class JumbotronModel extends Model
 {
     protected $table = "jumbotron";
     protected $fillable = [
-        'id_layanan',
+        'id_jumbotron',
         'judul',
         'kata',
         'foto',
+        'link1',
+        'link2',
     ];
 
     public $incrementing = false;

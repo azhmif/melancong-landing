@@ -21,7 +21,7 @@ class AuthController extends Controller
         if (auth()->guard('user')->attempt($auth)) {
             return redirect('admin');
         }
-        Session::flash('gagal', 'Gagal Login');
+        $request->session()->flash('gagal', 'Gagal Login');
         return redirect()->back();
     }
 

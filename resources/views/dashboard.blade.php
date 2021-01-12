@@ -10,22 +10,24 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ url('Delicious/assets/img/logo-1.png')}}" rel="icon">
-    <link href="{{ url('Delicious/assets/img/logo-1.png')}}" rel="apple-touch-icon">
+    <link href="{{ url('Delicious/assets/img/logo-1.png') }}" rel="icon">
+    <link href="{{ url('Delicious/assets/img/logo-1.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
+        rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ url('Delicious/assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
-    <link href="{{ url('Delicious/assets/vendor/icofont/icofont.min.css')}}" rel="stylesheet">
-    <link href="{{ url('Delicious/assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
-    <link href="{{ url('Delicious/assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
-    <link href="{{ url('Delicious/assets/vendor/venobox/venobox.css')}}" rel="stylesheet">
-    <link href="{{ url('Delicious/assets/vendor/owl.carousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/vendor/icofont/icofont.min.css') }}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/vendor/boxicons/css/boxicons.min.css') }}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/vendor/animate.css/animate.min.css') }}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/vendor/venobox/venobox.css') }}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/vendor/owl.carousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
 
     <!-- Template Main CSS File -->
-    <link href="{{ url('Delicious/assets/css/style.css')}}" rel="stylesheet">
+    <link href="{{ url('Delicious/assets/css/style.css') }}" rel="stylesheet">
 
     <!-- =======================================================
   * Template Name: Delicious - v2.1.0
@@ -50,7 +52,7 @@
         <div class="container d-flex align-items-center">
 
             <div class="logo mr-auto">
-                <a href="index.html"><img src="{{ url('Delicious/assets/img/logo.ico')}}" alt="" class="img-fluid"></a>
+                <a href="index.html"><img src="{{ url('Delicious/assets/img/logo.ico') }}" alt="" class="img-fluid"></a>
                 <!-- Uncomment below if you prefer to use an image logo -->
             </div>
 
@@ -81,14 +83,20 @@
 
                     <!-- Slide 1 -->
                     <div class="carousel-item active" style="background: url(Delicious/assets/img/slide/slide-1.jpg);">
-                        <div class="carousel-background"><img src="{{ url('Delicious/assets/img/slide/slide-1.jpg')}}" style="width:100%" alt=""></div>
+                        <div class="carousel-background"><img src="{{ url('Delicious/assets/img/slide/slide-1.jpg') }}"
+                                style="width:100%" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown"><span>Melancong</span> Wisata</h2>
-                                <p class="animate__animated animate__fadeInUp">Melancong Wisata Travel merupakan sebuah perusahaan Tour and Travel yang akan selalu menemani kamu dalam menikmati Liburan/Traveling </p>
+                                <p class="animate__animated animate__fadeInUp">Melancong Wisata Travel merupakan sebuah
+                                    perusahaan Tour and Travel yang akan selalu menemani kamu dalam menikmati
+                                    Liburan/Traveling </p>
                                 <div>
-                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Layanan Kami</a>
-                                    <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Lakukan Pemesanan</a>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate__fadeInUp scrollto">Layanan Kami</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Lakukan
+                                        Pemesanan</a>
                                 </div>
                             </div>
                         </div>
@@ -96,14 +104,19 @@
 
                     <!-- Slide 2 -->
                     <div class="carousel-item" style="background: url(assets/img/slide/slide-2.jpg);">
-                        <div class="carousel-background"><img src="{{ url('Delicious/assets/img/slide/slide-2.jpg')}}" style="width:100%" alt=""></div>
+                        <div class="carousel-background"><img src="{{ url('Delicious/assets/img/slide/slide-2.jpg') }}"
+                                style="width:100%" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
-                                <h2 class="animate__animated animate__fadeInDown"><span>Pemesanan</span> Tiket Pesawat</h2>
+                                <h2 class="animate__animated animate__fadeInDown"><span>Pemesanan</span> Tiket Pesawat
+                                </h2>
                                 <p class="animate__animated animate__fadeInUp"></p>
                                 <div>
-                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Layanan Kami</a>
-                                    <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Lakukan Pemesanan</a>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate__fadeInUp scrollto">Layanan Kami</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Lakukan
+                                        Pemesanan</a>
                                 </div>
                             </div>
                         </div>
@@ -111,14 +124,18 @@
 
                     <!-- Slide 3 -->
                     <div class="carousel-item" style="background: url(assets/img/slide/slide-3.jpg);">
-                        <div class="carousel-background"><img src="{{ url('Delicious/assets/img/slide/slide-3.jpg')}}" style="width:100%" alt=""></div>
+                        <div class="carousel-background"><img src="{{ url('Delicious/assets/img/slide/slide-3.jpg') }}"
+                                style="width:100%" alt=""></div>
                         <div class="carousel-container">
                             <div class="carousel-content">
                                 <h2 class="animate__animated animate__fadeInDown"><span>Paket</span> Tour Wisata</h2>
                                 <p class="animate__animated animate__fadeInUp"></p>
                                 <div>
-                                    <a href="#menu" class="btn-menu animate__animated animate__fadeInUp scrollto">Layanan Kami</a>
-                                    <a href="#book-a-table" class="btn-book animate__animated animate__fadeInUp scrollto">Lakukan Pemesanan</a>
+                                    <a href="#menu"
+                                        class="btn-menu animate__animated animate__fadeInUp scrollto">Layanan Kami</a>
+                                    <a href="#book-a-table"
+                                        class="btn-book animate__animated animate__fadeInUp scrollto">Lakukan
+                                        Pemesanan</a>
                                 </div>
                             </div>
                         </div>
@@ -149,7 +166,7 @@
                 <div class="row">
 
                     <div class="col-lg-5 align-items-stretch" style='width:100%;'>
-                        <img src="{{ url('Delicious/assets/img/about.jpg')}}" style="width:100%" alt="">
+                        <img src="{{ url('Delicious/assets/img/about.jpg') }}" style="width:100%" alt="">
                     </div>
 
                     <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch">
@@ -157,7 +174,8 @@
                         <div class="content">
                             <h3>Tentang<strong>Kami</strong></h3>
                             <p>
-                                Melancong Wisata Travel merupakan sebuah perusahaan Tour and Travel yang menyediakan layanan berupa :
+                                Melancong Wisata Travel merupakan sebuah perusahaan Tour and Travel yang menyediakan
+                                layanan berupa :
                             </p>
                             <ul>
                                 <li><i class="bx bx-check-double"></i> Penjualan tiket pesawat</li>
@@ -167,7 +185,8 @@
                                 <li><i class="bx bx-check-double"></i> Serta transaksi lainnya</li>
                             </ul>
                             <p>
-                                Kami juga menyediakan bagi anda pelayanan berupa penyewaan bus pariwisata dan paket tour wisata dalam negeri maupun luar negeri
+                                Kami juga menyediakan bagi anda pelayanan berupa penyewaan bus pariwisata dan paket tour
+                                wisata dalam negeri maupun luar negeri
                             </p>
                             <p class="font-italic">
                                 Mari bergabung bersama kami
@@ -198,7 +217,8 @@
                             <div class="box">
                                 <span>01</span>
                                 <h4>Pencarian Tiket Lengkap</h4>
-                                <p>Mencari dan membandingkan harga dan promo tiket pesawat maskapai penerbangan nasional.</p>
+                                <p>Mencari dan membandingkan harga dan promo tiket pesawat maskapai penerbangan
+                                    nasional.</p>
                             </div>
                         </div>
 
@@ -214,7 +234,8 @@
                             <div class="box">
                                 <span>03</span>
                                 <h4>Harga Sudah Termasuk Pajak</h4>
-                                <p>Harga yang ditampilkan sudah termasuk pajak, Iuran Wajib Jasa Raharja, & fuel surcharge.</p>
+                                <p>Harga yang ditampilkan sudah termasuk pajak, Iuran Wajib Jasa Raharja, & fuel
+                                    surcharge.</p>
                             </div>
                         </div>
 
@@ -345,7 +366,7 @@
 
                     <div class="row event-item">
                         <div class="col-lg-6">
-                            <img src="{{ url('Delicious/assets/img/event-birthday.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ url('Delicious/assets/img/event-birthday.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
                             <h3>Birthday Parties</h3>
@@ -353,16 +374,21 @@
                                 <p><span>$189</span></p>
                             </div>
                             <p class="font-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
                                 magna aliqua.
                             </p>
                             <ul>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</li>
+                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                    voluptate velit.</li>
+                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</li>
                             </ul>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate
                                 velit esse cillum dolore eu fugiat nulla pariatur
                             </p>
                         </div>
@@ -370,7 +396,7 @@
 
                     <div class="row event-item">
                         <div class="col-lg-6">
-                            <img src="{{ url('Delicious/assets/img/event-private.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ url('Delicious/assets/img/event-private.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
                             <h3>Private Parties</h3>
@@ -378,16 +404,21 @@
                                 <p><span>$290</span></p>
                             </div>
                             <p class="font-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
                                 magna aliqua.
                             </p>
                             <ul>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</li>
+                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                    voluptate velit.</li>
+                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</li>
                             </ul>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate
                                 velit esse cillum dolore eu fugiat nulla pariatur
                             </p>
                         </div>
@@ -395,7 +426,7 @@
 
                     <div class="row event-item">
                         <div class="col-lg-6">
-                            <img src="{{ url('Delicious/assets/img/event-custom.jpg')}}" class="img-fluid" alt="">
+                            <img src="{{ url('Delicious/assets/img/event-custom.jpg') }}" class="img-fluid" alt="">
                         </div>
                         <div class="col-lg-6 pt-4 pt-lg-0 content">
                             <h3>Custom Parties</h3>
@@ -403,16 +434,21 @@
                                 <p><span>$99</span></p>
                             </div>
                             <p class="font-italic">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore
                                 magna aliqua.
                             </p>
                             <ul>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</li>
+                                <li><i class="icofont-check-circled"></i> Duis aute irure dolor in reprehenderit in
+                                    voluptate velit.</li>
+                                <li><i class="icofont-check-circled"></i> Ullamco laboris nisi ut aliquip ex ea commodo
+                                    consequat.</li>
                             </ul>
                             <p>
-                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+                                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                                reprehenderit in voluptate
                                 velit esse cillum dolore eu fugiat nulla pariatur
                             </p>
                         </div>
@@ -434,27 +470,33 @@
                 <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
                     <div class="form-row">
                         <div class="col-lg-4 col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                         <div class="col-lg-4 col-md-6 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                data-rule="email" data-msg="Please enter a valid email">
                             <div class="validate"></div>
                         </div>
                         <div class="col-lg-4 col-md-6 form-group">
-                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <input type="text" class="form-control" name="phone" id="phone" placeholder="Your Phone"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                         <div class="col-lg-4 col-md-6 form-group">
-                            <input type="text" name="date" class="form-control" id="date" placeholder="Date" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <input type="text" name="date" class="form-control" id="date" placeholder="Date"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                         <div class="col-lg-4 col-md-6 form-group">
-                            <input type="text" class="form-control" name="time" id="time" placeholder="Time" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+                            <input type="text" class="form-control" name="time" id="time" placeholder="Time"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars">
                             <div class="validate"></div>
                         </div>
                         <div class="col-lg-4 col-md-6 form-group">
-                            <input type="number" class="form-control" name="people" id="people" placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
+                            <input type="number" class="form-control" name="people" id="people"
+                                placeholder="# of people" data-rule="minlen:1" data-msg="Please enter at least 1 chars">
                             <div class="validate"></div>
                         </div>
                     </div>
@@ -465,7 +507,8 @@
                     <div class="mb-3">
                         <div class="loading">Loading</div>
                         <div class="error-message"></div>
-                        <div class="sent-message">Your booking request was sent. We will call back or send an Email to confirm your reservation. Thank you!</div>
+                        <div class="sent-message">Your booking request was sent. We will call back or send an Email to
+                            confirm your reservation. Thank you!</div>
                     </div>
                     <div class="text-center"><button type="submit">Send Message</button></div>
                 </form>
@@ -486,64 +529,80 @@
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-1.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-1.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-1.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-1.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-2.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-2.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-2.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-2.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-3.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-3.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-3.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-3.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-4.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-4.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-4.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-4.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-5.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-5.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-5.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-5.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-6.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-6.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-6.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-6.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-7.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-7.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-7.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-7.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-4">
                         <div class="gallery-item">
-                            <a href="{{ url('Delicious/assets/img/gallery/gallery-8.jpg')}}" class="venobox" data-gall="gallery-item">
-                                <img src="{{ url('Delicious/assets/img/gallery/gallery-8.jpg')}}" alt="" class="img-fluid">
+                            <a href="{{ url('Delicious/assets/img/gallery/gallery-8.jpg') }}" class="venobox"
+                                data-gall="gallery-item">
+                                <img src="{{ url('Delicious/assets/img/gallery/gallery-8.jpg') }}" alt=""
+                                    class="img-fluid">
                             </a>
                         </div>
                     </div>
@@ -559,7 +618,8 @@
                 <div class="owl-carousel testimonials-carousel">
 
                     <div class="testimonial-item">
-                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-1.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-1.jpg') }}"
+                            class="testimonial-img" alt="">
                         <h3>Saul Goodman</h3>
                         <h4>Ceo &amp; Founder</h4>
                         <div class="stars">
@@ -571,13 +631,15 @@
                         </div>
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
+                            Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-2.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-2.jpg') }}"
+                            class="testimonial-img" alt="">
                         <h3>Sara Wilsson</h3>
                         <h4>Designer</h4>
                         <div class="stars">
@@ -589,13 +651,16 @@
                         </div>
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum
+                            eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim
+                            culpa.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-3.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-3.jpg') }}"
+                            class="testimonial-img" alt="">
                         <h3>Jena Karlis</h3>
                         <h4>Store Owner</h4>
                         <div class="stars">
@@ -607,13 +672,15 @@
                         </div>
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis
+                            minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-4.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-4.jpg') }}"
+                            class="testimonial-img" alt="">
                         <h3>Matt Brandon</h3>
                         <h4>Freelancer</h4>
                         <div class="stars">
@@ -625,13 +692,16 @@
                         </div>
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim
+                            velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum
+                            veniam.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                     </div>
 
                     <div class="testimonial-item">
-                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-5.jpg')}}" class="testimonial-img" alt="">
+                        <img src="{{ url('Delicious/assets/img/testimonials/testimonials-5.jpg') }}"
+                            class="testimonial-img" alt="">
                         <h3>John Larson</h3>
                         <h4>Entrepreneur</h4>
                         <div class="stars">
@@ -643,7 +713,9 @@
                         </div>
                         <p>
                             <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam
+                            enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore
+                            nisi cillum quid.
                             <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                         </p>
                     </div>
@@ -660,7 +732,8 @@
 
                 <div class="section-title">
                     <h2><span>Kontak</span> Kami</h2>
-                    <p>Silahkan hubungi kami untuk pemesanan tiket atau tour liburan. atau bisa juga dengan cara mengirimi kami email</p>
+                    <p>Silahkan hubungi kami untuk pemesanan tiket atau tour liburan. atau bisa juga dengan cara
+                        mengirimi kami email</p>
                 </div>
             </div>
             <div class="container mt-5">
@@ -685,20 +758,24 @@
                 <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                     <div class="form-row">
                         <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
+                                data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                             <div class="validate"></div>
                         </div>
                         <div class="col-md-6 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email"
+                                data-rule="email" data-msg="Please enter a valid email" />
                             <div class="validate"></div>
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                        <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
+                            data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
-                        <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                        <textarea class="form-control" name="message" rows="5" data-rule="required"
+                            data-msg="Please write something for us" placeholder="Message"></textarea>
                         <div class="validate"></div>
                     </div>
                     <div class="mb-3">
@@ -718,7 +795,8 @@
     <footer id="footer">
         <div class="container">
             <h3>Melancong Wisata</h3>
-            <p>MelancongWisataTravel menyajikan informasi terkini untuk perjalanan wisata Anda, lengkap dengan daftar harga tiket pesawat murah.</p>
+            <p>MelancongWisataTravel menyajikan informasi terkini untuk perjalanan wisata Anda, lengkap dengan daftar
+                harga tiket pesawat murah.</p>
             <div class="social-links">
                 <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                 <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -742,17 +820,17 @@
     <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="{{ url('Delicious/assets/vendor/jquery/jquery.min.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/jquery.easing/jquery.easing.min.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/php-email-form/validate.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/jquery-sticky/jquery.sticky.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/isotope-layout/isotope.pkgd.min.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/venobox/venobox.min.js')}}"></script>
-    <script src="{{ url('Delicious/assets/vendor/owl.carousel/owl.carousel.min.js')}}"></script>
+    <script src="{{ url('Delicious/assets/vendor/jquery/jquery.min.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/jquery.easing/jquery.easing.min.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/php-email-form/validate.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/jquery-sticky/jquery.sticky.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/isotope-layout/isotope.pkgd.min.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/venobox/venobox.min.js') }}"></script>
+    <script src="{{ url('Delicious/assets/vendor/owl.carousel/owl.carousel.min.js') }}"></script>
 
     <!-- Template Main JS File -->
-    <script src="{{ url('Delicious/assets/js/main.js')}}"></script>
+    <script src="{{ url('Delicious/assets/js/main.js') }}"></script>
 
 </body>
 

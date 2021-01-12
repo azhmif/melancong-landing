@@ -14,12 +14,9 @@ class CreateLayananTable extends Migration
     public function up()
     {
         Schema::create('layanan', function (Blueprint $table) {
-            $table->uuid('id_layanan', 32)->primary();
+            $table->string('id_portofolio', 36)->primary();
             $table->string('nama_layanan', 100);
-            $table->integer('jenis_layanan')->unsigned();
             $table->string('keterangan', 255);
-            $table->string('harga', 20);
-            $table->integer('diskon')->unsigned();
             $table->timestamps();
         });
     }

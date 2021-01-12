@@ -18,6 +18,8 @@ class CreateJumbotronTable extends Migration
             $table->string('judul', 50);
             $table->string('foto', 100);
             $table->string('kata', 255);
+            $table->string('link1', 255);
+            $table->string('link2', 255);
             $table->timestamps();
         });
     }

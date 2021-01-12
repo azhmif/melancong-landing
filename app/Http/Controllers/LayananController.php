@@ -30,9 +30,6 @@ class LayananController extends Controller
             [
                 'id_layanan' => Uuid::uuid4()->getHex(),
                 'nama_layanan' => $request->nama_layanan,
-                'jenis_layanan' => $request->jenis_layanan,
-                'harga' => $request->harga,
-                'diskon' => $request->diskon,
                 'keterangan' => $request->keterangan
             ]
         );
@@ -45,9 +42,6 @@ class LayananController extends Controller
     {
         LayananModel::where('id_layanan', $request->id)->update([
             'nama_layanan' => $request->nama_layanan,
-            'jenis_layanan' => $request->jenis_layanan,
-            'harga' => $request->harga,
-            'diskon' => $request->diskon,
             'keterangan' => $request->keterangan
         ]);
 

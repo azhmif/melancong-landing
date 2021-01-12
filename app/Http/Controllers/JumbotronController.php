@@ -4,9 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\JumbotronModel;
-use Session;
-use File;
-use Illuminate\Contracts\Session\Session as SessionSession;
 
 class JumbotronController extends Controller
 {
@@ -30,28 +27,37 @@ class JumbotronController extends Controller
         JumbotronModel::where('id_jumbotron', $request->id1)->update([
             'judul' => $request->judul1,
             'kata'  => $request->kata1,
+            'link1' => $request->link11,
+            'link2' => $request->link21,
         ]);
-        Session::flash('sukses', 'berhasil');
+        $request->session()->flash('sukses', 'berhasil');
         return redirect('jumbotron');
     }
+
     public function update_kata_2(Request $request)
     {
         JumbotronModel::where('id_jumbotron', $request->id2)->update([
             'judul' => $request->judul2,
             'kata'  => $request->kata2,
+            'link1' => $request->link12,
+            'link2' => $request->link22,
         ]);
-        Session::flash('sukses', 'berhasil');
+        $request->session()->flash('sukses', 'berhasil');
         return redirect('jumbotron');
     }
+
     public function update_kata_3(Request $request)
     {
         JumbotronModel::where('id_jumbotron', $request->id3)->update([
             'judul' => $request->judul3,
             'kata'  => $request->kata3,
+            'link1' => $request->link13,
+            'link2' => $request->link23,
         ]);
-        Session::flash('sukses', 'berhasil');
+        $request->session()->flash('sukses', 'berhasil');
         return redirect('jumbotron');
     }
+
     public function update_gambar_1(Request $request)
     {
         $this->validate($request, [
@@ -62,18 +68,19 @@ class JumbotronController extends Controller
             $gambar = $request->file('gambar1');
             $nama = $gambar->getClientOriginalName();
             $tujuan = 'data/jumbotron/';
-            File::delete($tujuan . $request->lama1);
+            $request->file->delete($tujuan . $request->lama1);
             $gambar->move($tujuan, $nama);
             JumbotronModel::where('id_jumbotron', $request->id1)->update([
                 'foto'         => $nama,
             ]);
-            Session::flash('sukses', 'berhasil');
+            $request->session()->flash('sukses', 'berhasil');
             return redirect('jumbotron');
         } else {
-            Session::flash('gagal', 'berhasil');
+            $request->session()->flash('gagal', 'berhasil');
             return redirect('jumbotron');
         }
     }
+
     public function update_gambar_2(Request $request)
     {
         $this->validate($request, [
@@ -84,18 +91,19 @@ class JumbotronController extends Controller
             $gambar = $request->file('gambar2');
             $nama = $gambar->getClientOriginalName();
             $tujuan = 'data/jumbotron/';
-            File::delete($tujuan . $request->lama2);
+            $request->file->delete($tujuan . $request->lama2);
             $gambar->move($tujuan, $nama);
             JumbotronModel::where('id_jumbotron', $request->id2)->update([
                 'foto'         => $nama,
             ]);
-            Session::flash('sukses', 'berhasil');
+            $request->session()->flash('sukses', 'berhasil');
             return redirect('jumbotron');
         } else {
-            Session::flash('gagal', 'berhasil');
+            $request->session()->flash('gagal', 'berhasil');
             return redirect('jumbotron');
         }
     }
+
     public function update_gambar_3(Request $request)
     {
         $this->validate($request, [
@@ -106,15 +114,15 @@ class JumbotronController extends Controller
             $gambar = $request->file('gambar3');
             $nama = $gambar->getClientOriginalName();
             $tujuan = 'data/jumbotron/';
-            File::delete($tujuan . $request->lama3);
+            $request->file->delete($tujuan . $request->lama3);
             $gambar->move($tujuan, $nama);
             JumbotronModel::where('id_jumbotron', $request->id3)->update([
                 'foto'         => $nama,
             ]);
-            Session::flash('sukses', 'berhasil');
+            $request->session()->flash('sukses', 'berhasil');
             return redirect('jumbotron');
         } else {
-            Session::flash('gagal', 'berhasil');
+            $request->session()->flash('gagal', 'berhasil');
             return redirect('jumbotron');
         }
     }
