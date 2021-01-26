@@ -60,7 +60,7 @@
                 <ul>
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#about">Tentang Kami</a></li>
-                    <li><a href="#menu">Layanan</a></li>\
+                    <li><a href="#menu">Layanan</a></li>
                     <li><a href="#gallery">Galeri</a></li>
                     <li><a href="#contact">Kontak</a></li>
 
@@ -225,11 +225,8 @@
                                 </div>
                             </div>
                         @endforeach
-
                     </div>
-
                 </div>
-
             </div>
         </section>
         <!-- End Whu Us Section -->
@@ -241,7 +238,6 @@
                 <div class="section-title">
                     <h2>Beberapa Layanan <span> Favorit Kami</span></h2>
                 </div>
-
                 <div class="row">
                     <div class="col-lg-12 d-flex justify-content-center">
                         <ul id="menu-flters">
@@ -257,7 +253,8 @@
                         @if ($index < 4):
                             <div class="col-lg-6 menu-item 1">
                                 <div class="menu-content">
-                                    <a href="#">{{ $mobil->nama_mobil }}</a><span>{{ $mobil->harga }}</span>
+                                    <a href="#">{{ $mobil->nama_mobil }}</a><span>Rp.
+                                        {{ number_format($mobil->harga, 0, ',', '.') }}</span>
                                 </div>
                                 <div class="menu-ingredients">
                                     {{ $mobil->deskripsi }}
@@ -269,7 +266,8 @@
                         @if ($c < 4):
                             <div class="col-lg-6 menu-item 2">
                                 <div class="menu-content">
-                                    <a href="#">{{ $bus->nama_bus }}</a><span>{{ $bus->detail_bus[0]->harga }}</span>
+                                    <a href="#">{{ $bus->nama_bus }}</a><span>Rp.
+                                        {{ number_format($bus->detail_bus[0]->harga, 0, ',', '.') }}</span>
                                 </div>
                                 <div class="menu-ingredients">
                                     {{ $bus->deskripsi }}
@@ -281,8 +279,8 @@
                         @if ($a < 4):
                             <div class="col-lg-6 menu-item 3">
                                 <div class="menu-content">
-                                    <a
-                                        href="#">{{ $wisata->nama }}</a><span>{{ $wisata->detail_wisata[0]->harga }}</span>
+                                    <a href="#">{{ $wisata->nama }}</a><span>Rp.
+                                        {{ number_format($wisata->detail_wisata[0]->harga, 0, ',', '.') }}</span>
                                 </div>
                                 <div class="menu-ingredients">
                                     {{ $wisata->deskripsi }}

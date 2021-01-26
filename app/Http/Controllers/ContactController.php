@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\ProfilModel;
 use Session;
+use Illuminate\Support\Facades\Http;
 
 class ContactController extends Controller
 {
@@ -37,7 +38,7 @@ class ContactController extends Controller
             'twitter'   => $request->twitter,
             'instagram' => $request->instagram,
             'youtube'   => $request->youtube,
-            'whatsapp'   => $request->whatsapp
+            'whatsapp'  => $request->whatsapp
         ]);
 
         $request->session->flash('sukses', 'berhasil');
